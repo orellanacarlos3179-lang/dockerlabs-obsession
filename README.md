@@ -61,7 +61,7 @@ Bash
 ```
 gobuster dir -u [http://172.17.0.2/](http://172.17.0.2/) -w /usr/share/wordlists/dirb/common.txt -x html,php,txt -t 20
 ```
-![image alt]()
+![image alt](https://github.com/orellanacarlos3179-lang/dockerlabs-obsession/blob/731180b4a48517bee0836dbe803632557df30811/images/03_gobuster_fuzzing.jpg)
 Directorios descubiertos:
 
 /backup (Status: 301)
