@@ -98,6 +98,8 @@ Una vez dentro de la máquina como el usuario russoski, se revisaron los permiso
 ```
 sudo -l
 ```
+![image alt](https://github.com/orellanacarlos3179-lang/dockerlabs-obsession/blob/82a8f42b11df5ae865f6367efa1cb8388a1c646d/images/06_sudo_l_permisos.jpg)
+
 Salida obtenida:
 
 Plaintext
