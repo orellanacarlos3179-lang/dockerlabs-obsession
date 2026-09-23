@@ -8,7 +8,7 @@ Se ejecutó un escaneo completo de puertos TCP para identificar los servicios ex
 ```
 nmap -p- --open -sS --min-rate 5000 -n -Pn 172.17.0.2 -oN puertos.txt
 ```
-https://github.com/orellanacarlos3179-lang/dockerlabs-obsession/blob/4ac210190910f5d4a3dae35267c4a2736a3f17d5/images/01_nmap_puertos.jpg
+![imagealt](https://github.com/orellanacarlos3179-lang/dockerlabs-obsession/blob/4ac210190910f5d4a3dae35267c4a2736a3f17d5/images/01_nmap_puertos.jpg)
 Servicios identificados:
 
 21/tcp — FTP
@@ -24,7 +24,7 @@ Se realizó la detección de versiones sobre los puertos expuestos para analizar
 ```
 nmap -sCV -p22,80 172.17.0.2 -oN servicios.txt
 ```
-https://github.com/orellanacarlos3179-lang/dockerlabs-obsession/blob/3e3864b15682893fedff68b0510e0b0a167dc2ba/images/02_nmap_servicios.jpg
+![image alt](https://github.com/orellanacarlos3179-lang/dockerlabs-obsession/blob/3e3864b15682893fedff68b0510e0b0a167dc2ba/images/02_nmap_servicios.jpg)
 Resultados obtenidos:
 
 21/tcp: vsFTPd 3.0.5
