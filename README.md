@@ -24,7 +24,7 @@ Se realizó la detección de versiones sobre los puertos expuestos para analizar
 ```
 nmap -sCV -p22,80 172.17.0.2 -oN servicios.txt
 ```
-
+https://github.com/orellanacarlos3179-lang/dockerlabs-obsession/blob/3e3864b15682893fedff68b0510e0b0a167dc2ba/images/02_nmap_servicios.jpg
 Resultados obtenidos:
 
 21/tcp: vsFTPd 3.0.5
