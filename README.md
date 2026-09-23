@@ -42,7 +42,7 @@ Bash
 ```
 ftp 172.17.0.2
 ```
-
+![image alt](https://github.com/orellanacarlos3179-lang/dockerlabs-obsession/blob/882125c30c077c58e1fc4184d5b5e7675bdbe6f6/images/04_ftp_anonymous.jpg)
 Username: anonymous
 
 Password: (Cualquier valor)
@@ -61,7 +61,7 @@ Bash
 ```
 gobuster dir -u [http://172.17.0.2/](http://172.17.0.2/) -w /usr/share/wordlists/dirb/common.txt -x html,php,txt -t 20
 ```
-
+![image alt]()
 Directorios descubiertos:
 
 /backup (Status: 301)
