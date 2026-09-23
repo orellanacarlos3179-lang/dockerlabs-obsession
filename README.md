@@ -127,8 +127,8 @@ whoami
 
 # Output: root
 
-Impacto & Mitigations
-Impacto
+##Impacto & Mitigations
+
 El compromiso total permite a un atacante tomar control absoluto del contenedor (root), leer o modificar información confidencial, alterar la configuración de los servicios e instalar persistencia.
 
 Mitigaciones
