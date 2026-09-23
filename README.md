@@ -29,8 +29,6 @@ Resultados obtenidos:
 
 21/tcp: vsFTPd 3.0.5
 
-22/tcp: OpenSSH 9.6p1 Ubuntu
-
 80/tcp: Apache httpd 2.4.58 (Título del sitio web: Russoski Coaching)
 
 Information Gathering
@@ -56,7 +54,6 @@ pendientes.txt (315 bytes)
 Web Enumeration & Directory Fuzzing
 Se ejecutó una búsqueda de directorios ocultos en el servidor web mediante Gobuster:
 
-Bash
 
 ```
 gobuster dir -u [http://172.17.0.2/](http://172.17.0.2/) -w /usr/share/wordlists/dirb/common.txt -x html,php,txt -t 20
@@ -129,7 +126,8 @@ whoami
 ![image alt](https://github.com/orellanacarlos3179-lang/dockerlabs-obsession/blob/5787bec14681af126c2837690f1cbbc05a33ece9/images/07_root_whoami.jpg)
 
 # Output: root
-Security Impact & Mitigations
+
+Impacto & Mitigations
 Impacto
 El compromiso total permite a un atacante tomar control absoluto del contenedor (root), leer o modificar información confidencial, alterar la configuración de los servicios e instalar persistencia.
 
